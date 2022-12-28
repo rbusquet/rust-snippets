@@ -74,7 +74,27 @@ fn main() {
     for number in (1..4).rev() {
         println!("{number}!")
     }
-    println!("LIFTOFF!!!")
+    println!("LIFTOFF!!!");
+
+    let mut x = 0;
+    'a: loop {
+        x += 1;
+        'b: loop {
+            if x > 10 {
+                continue 'a;
+            } else {
+                break 'b;
+            }
+        }
+        break;
+    }
+
+    let a = [5; 10];
+    let mut sum = 0;
+    for x in a {
+        sum += x;
+    }
+    println!("{sum}");
 }
 
 fn foo_bar_baz(n: u32) {
