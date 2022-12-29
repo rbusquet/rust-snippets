@@ -1,0 +1,32 @@
+{
+  "folders": [
+    {
+      "path": "branches"
+    },
+    {
+      "path": "functions"
+    },
+    {
+      "path": "guessing_game"
+    },
+    {
+      "path": "hello_cargo"
+    },
+    {
+      "path": "hello_world"
+    },
+    {
+      "path": "ownership"
+    },
+    {
+      "path": "references"
+    },
+    {
+      "path": "variables"
+    },
+    {
+      "path": "slices"
+    }
+  ],
+  "settings": {}
+}
